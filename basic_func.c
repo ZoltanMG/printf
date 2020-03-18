@@ -58,3 +58,20 @@ int func_null(va_list __attribute__ ((unused))args)
 	_putchar('%');
 	return (0);
 }
+
+/**
+ * func_int - Print a integer.
+ * @args: Contains arguments.
+ *
+ * Return: Always size.
+ */
+int func_int(va_list args)
+{
+	int size;
+	int a;
+
+	a = va_arg(args, int);
+	size = f_rec_size(a);
+	f_rec_print(a);
+	return (size);
+}
