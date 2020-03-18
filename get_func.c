@@ -15,6 +15,7 @@ int (*get_func(char c))(va_list args)
 		{'s', func_str},
 		{'%', func_pers},
 		{'i', func_int},
+		{'d', func_dec},
 		{00, func_null}
 	};
 
