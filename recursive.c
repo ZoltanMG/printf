@@ -31,3 +31,15 @@ void f_rec_print(int a)
 	a %= 10;
 	_putchar(a + '0');
 }
+
+/**
+ * func_null - Print a percentage.
+ * @args: Contains arguments.
+ *
+ * Return: Always 0.
+ */
+int func_null(va_list __attribute__ ((unused))args)
+{
+	_putchar('%');
+	return (0);
+}
