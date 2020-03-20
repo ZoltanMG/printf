@@ -26,8 +26,8 @@ int func_str(va_list args);
 int func_pers(va_list args);
 int func_null(va_list args);
 int func_int(va_list args);
-int f_rec_size(int a);
-void f_rec_print(int a);
+int f_rec_size(long int a);
+void f_rec_print(long int a);
 int func_dec(va_list args);
 
 #endif

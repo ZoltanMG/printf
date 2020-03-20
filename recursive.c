@@ -6,7 +6,7 @@
  *
  * Return: Always function.
  */
-int f_rec_size(int a)
+int f_rec_size(long int a)
 {
 	if (a < 10)
 	{
@@ -19,7 +19,7 @@ int f_rec_size(int a)
  * f_rec_print - Print a integer.
  * @a: Contain integer.
  */
-void f_rec_print(int a)
+void f_rec_print(long int a)
 {
 	if (a < 10)
 	{

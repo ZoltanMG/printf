@@ -55,7 +55,7 @@ int func_pers(va_list __attribute__ ((unused))args)
  */
 int func_int(va_list args)
 {
-	int size;
+	int size = 0;
 	long int a;
 
 	a = va_arg(args, int);
@@ -65,6 +65,7 @@ int func_int(va_list args)
 		_putchar('-');
 		size = f_rec_size(a);
 		f_rec_print(a);
+		size += 1;
 	}
 	else
 	{
